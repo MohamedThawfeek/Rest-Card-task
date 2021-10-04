@@ -1,0 +1,94 @@
+body {
+  background-color: rgba(128, 128, 128, 0.459);
+}
+
+.container {
+  display: inline-block;
+  margin: 30px 50px;
+  background-color: rgba(245, 245, 245, 0.514);
+  border-radius: 12px;
+  height: auto;
+  text-align: center;
+}
+
+.countryName {
+  position: relative;
+  background-color: rgba(128, 128, 128, 0.767);
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  border-radius: 10px 10px 0 0;
+  /* letter-spacing: 1px; */
+}
+.countryName:hover {
+  color: whitesmoke;
+}
+
+.flag {
+  display: block;
+  width: 300px;
+  height: 150px;
+  padding: 10px;
+  text-align: center;
+  border-radius: 25px;
+}
+.flag:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+.capitalcap {
+  font-size: 20px;
+  font-weight: 200;
+  text-align: center;
+  display: inline;
+}
+.capitalcap:hover {
+  color: blue;
+}
+
+.capital {
+  display: inline-block;
+  background: linear-gradient(rgba(9, 228, 27, 0.801), rgba(170, 87, 9, 0.733));
+  padding: 5px;
+  font-weight: 800;
+  color: white;
+  border-radius: 10px;
+}
+.capital:hover {
+  background-color: yellowgreen;
+  color: red;
+}
+
+.language {
+  font-size: 18px;
+  font-weight: 100;
+}
+.language:hover {
+  color: blue;
+}
+.countrycode {
+  font-size: 18px;
+  font-weight: 100;
+}
+.countrycode:hover {
+  color: blue;
+}
+.region {
+  font-size: 18px;
+  font-weight: 100;
+}
+.region:hover {
+  color: blue;
+}
+.latlng {
+  font-size: 18px;
+  font-weight: 100;
+}
+.latlng:hover {
+  color: blue;
+}
+.div1 {
+  text-align: center;
+}
